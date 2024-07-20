@@ -189,20 +189,28 @@
             <div class="icons"><a href="https://www.linkdin.com/Sajit Maharjan" target="_blank"><img src="link.svg" alt="linkdin"></a></div>
 
         </div>
+<!--         //use of web3form api so i inserted data are saved to my gmail-->
+        <form action="https://api.web3forms.com/submit" method="POST"> 
         <div class="right-contact">
+             <input type="hidden" name="access_key" value="6396dad7-2c18-4180-a3e8-0287ddffe3ab">
+
             <div class="heading-contact">
+
                 Contact Me
 
             </div>
+
+     
             <div id="form">
-            <input type="text" placeholder="Enter your name">
-            <input type="email" placeholder="****@gmail.com">
-            <textarea id="message" rows="5" placeholder="Ask me anything"></textarea>
+                <input type="text" name="name" placeholder="Enter your name">
+                 <input type="email" name="email" placeholder="****@gmail.com">
+                <textarea id="message" name="message" rows="5" placeholder="Ask me anything"></textarea>
+          
              <button class="btn">Submit</button>
             </div>
-            </div>
-            
-        </div>
+        
+         </div>
+        </form>
     </section>
 
 
